@@ -1,9 +1,9 @@
 # LRTHWex26.rb
 # Zed Shaw's method of introducing students to legacy code.
-module 
-
+module Ex25
   # This function will break up words for us.
   def break_words(stuff)
+    #def Ex25.break_words(stuff)
     words = stuff.split(' ')
     return words
   end
@@ -45,6 +45,7 @@ module
     print_last_word(words)
   end
 end
+
 
 puts "Let's practice everything."
 puts 'You\'d need to know \'bout escapes with \\ that do \\n newlines and \\t tabs.'
@@ -90,8 +91,7 @@ print_first_word(words)
 print_last_word(words)
 print_first_word(sort_words)
 print_last_word(sort_words)
-sorted_words = .sort_sentence(sentence)
+sorted_words = sort_sentence(sentence)
 print_first_and_last(sentence)
 print_first_and_last_sorted(sentence)
-
 
